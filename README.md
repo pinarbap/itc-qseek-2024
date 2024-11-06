@@ -52,7 +52,7 @@ The `DistanceWeights` class is designed to compute weights based on the distance
 
    This method provides a weight that decreases exponentially with distance.
 
-# Parameters
+### Parameters
 - **Exponent (`exponent`)**: The exponent of the spatial decay function (default is 3.0).
 - **Cutoff Distance (`radius_meters`)**: The cutoff distance for the spatial decay function in meters (default is 8000.0).
 - **LRU Cache Size (`lut_cache_size`)**: Size of the LRU cache in bytes (default is 200 MB).
