@@ -10,3 +10,25 @@
 
 Please join the [itc-qseek channel]([https://hive.pyrocko.org/pyrocko-support/channels/itc2024) on the
 [Pyrocko Hive](https://hive.pyrocko.org).
+
+## Program
+
+Thursday, November 7
+
+    08:30 - 10:00: Waveform based detection and location (Simone Cesca)
+    10:30 - 12:00: Waveform based seismic catalog generation practical (Pinar Büyükakpinar)
+
+Exercise dataset (Qseek)
+
+## Links and Tutorials
+
+* [Pyrocko web page](https://pyrocko.org)
+* [Pyrocko manual](https://pyrocko.org/docs/current/)
+* [Snuffler manual (Data Access, Preparation and Visualization)](https://pyrocko.org/docs/current/apps/snuffler/index.html)
+* [Squirrel command line tool tutorial (Data Access, Preparation and Visualization)](https://pyrocko.org/docs/current/apps/squirrel/tutorial.html)
+
+
+## Data
+
+Dataset can be downloaded via the link below
+https://nextcloud.gfz-potsdam.de/s/HrsrTTMpQgPP5Yn
