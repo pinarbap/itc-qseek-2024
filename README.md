@@ -22,7 +22,7 @@ Exercise dataset (Qseek)
 
 ## Links and Tutorials
 
-* [QSeek web page](https://pyrocko.github.io/qseek/)
+* [Qseek web page](https://pyrocko.github.io/qseek/)
 * [Pyrocko web page](https://pyrocko.org)
 * [Pyrocko manual](https://pyrocko.org/docs/current/)
 * [Snuffler manual (Data Access, Preparation and Visualization)](https://pyrocko.org/docs/current/apps/snuffler/index.html)
