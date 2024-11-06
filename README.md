@@ -39,7 +39,7 @@ Dataset can be downloaded via the link: https://nextcloud.gfz-potsdam.de/s/HrsrT
 
 The `DistanceWeights` class is designed to compute weights based on the distance from a set of stations to a series of nodes in a spatial context. The weights are calculated using two different methods depending on the configuration:
 
-*Exponential Decay Function:**
+**Exponential Decay Function:**
    The weights are calculated using the following formula:
 
    $$ w = e^{-\left(\frac{d^p}{r^p}\right)} $$
@@ -52,10 +52,10 @@ The `DistanceWeights` class is designed to compute weights based on the distance
 
    This method provides a weight that decreases exponentially with distance.
 
-## Parameters
-- *Exponent (`exponent`)**: The exponent of the spatial decay function (default is 3.0).
-- *Cutoff Distance (`radius_meters`)**: The cutoff distance for the spatial decay function in meters (default is 8000.0).
-- *LRU Cache Size (`lut_cache_size`)**: Size of the LRU cache in bytes (default is 200 MB).
+# Parameters
+- **Exponent (`exponent`)**: The exponent of the spatial decay function (default is 3.0).
+- **Cutoff Distance (`radius_meters`)**: The cutoff distance for the spatial decay function in meters (default is 8000.0).
+- **LRU Cache Size (`lut_cache_size`)**: Size of the LRU cache in bytes (default is 200 MB).
 
 ## Configuration
 
