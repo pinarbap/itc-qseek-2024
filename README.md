@@ -32,6 +32,8 @@ Exercise dataset (Qseek)
 
 Dataset can be downloaded via the link: https://nextcloud.gfz-potsdam.de/s/HrsrTTMpQgPP5Yn
 
+## Running qseek
+
 ```
 
 Edit the `test.json`
