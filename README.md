@@ -27,16 +27,43 @@ Exercise dataset (Qseek)
 * [Snuffler manual (Data Access, Preparation and Visualization)](https://pyrocko.org/docs/current/apps/snuffler/index.html)
 * [Squirrel command line tool tutorial (Data Access, Preparation and Visualization)](https://pyrocko.org/docs/current/apps/squirrel/tutorial.html)
 
-
 ## Data
 
 Dataset can be downloaded via the link: https://nextcloud.gfz-potsdam.de/s/HrsrTTMpQgPP5Yn
 
-## Running qseek
+## Configuration
 
 Edit the test.json
 
+## Distance Weights Calculation
+
+The `DistanceWeights` class is designed to compute weights based on the distance from a set of stations to a series of nodes in a spatial context. The weights are calculated using two different methods depending on the configuration:
+
+**Exponential Decay Function:**
+   The weights are calculated using the following formula:
+
+   $$ w = e^{-\left(\frac{d^p}{r^p}\right)} $$
+
+   where:
+   - \( w \) is the weight.
+   - \( d \) is the distance from the station to the node.
+   - \( r \) is the cutoff distance (in meters).
+   - \( p \) is the exponent of the spatial decay function (default is 3.0).
+
+   This method provides a weight that decreases exponentially with distance.
+
+## Parameters
+- **Exponent (`exponent`)**: The exponent of the spatial decay function (default is 3.0).
+- **Cutoff Distance (`radius_meters`)**: The cutoff distance for the spatial decay function in meters (default is 8000.0).
+- **LRU Cache Size (`lut_cache_size`)**: Size of the LRU cache in bytes (default is 200 MB).
+
+## Running qseek
+
 Start the earthquake detection with `qseek search test.json`
+
+## Visualize results
+
+qseek snuffler test
 
 ## Citation
 
