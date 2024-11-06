@@ -34,12 +34,6 @@ Dataset can be downloaded via the link: https://nextcloud.gfz-potsdam.de/s/HrsrT
 
 ## Running qseek
 
-```
+Edit the test.json
 
-Edit the `test.json`
-
-Start the earthquake detection with
-
-```sh
-qseek search test.json
-```
+Start the earthquake detection with qseek search test.json
