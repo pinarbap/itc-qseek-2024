@@ -15,8 +15,8 @@ Please join the [itc-qseek channel]([https://hive.pyrocko.org/pyrocko-support/ch
 
 Thursday, November 7
 
-08:30 - 10:00: Waveform based detection and location (Simone Cesca)
-10:30 - 12:00: Waveform based seismic catalog generation practical (Pinar Büyükakpinar)
+	08:30 - 10:00: Waveform based detection and location (Simone Cesca)
+	10:30 - 12:00: Waveform based seismic catalog generation practical (Pinar Büyükakpinar)
 
 Exercise dataset (Qseek)
 
