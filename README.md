@@ -63,7 +63,7 @@ Start the earthquake detection with `qseek search test.json`
 
 ## Visualize results
 
-qseek snuffler test
+`qseek snuffler test`
 
 ## Citation
 
