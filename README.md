@@ -37,3 +37,9 @@ Dataset can be downloaded via the link: https://nextcloud.gfz-potsdam.de/s/HrsrT
 Edit the test.json
 
 Start the earthquake detection with `qseek search test.json`
+
+## Citation
+
+Please cite Qseek as:
+
+> Marius Paul Isken, Peter Niemz, Jannes Münchmeyer, Sebastian Heimann, Simone Cesca, Torsten Dahm, Qseek: A data-driven Framework for Machine-Learning Earthquake Detection, Localization and Characterization, Seismica, 2024, *submitted*
