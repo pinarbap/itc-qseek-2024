@@ -30,7 +30,7 @@ Exercise dataset (Qseek)
 
 ## Task
 
-We will detect and locate earthquakes around Ataturk Dam using different distance weights
+We will detect and locate earthquakes around the Ataturk Dam using different distance weights
 
 ## Data
 
