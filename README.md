@@ -30,5 +30,4 @@ Exercise dataset (Qseek)
 
 ## Data
 
-Dataset can be downloaded via the link below
-https://nextcloud.gfz-potsdam.de/s/HrsrTTMpQgPP5Yn
+Dataset can be downloaded via the link: https://nextcloud.gfz-potsdam.de/s/HrsrTTMpQgPP5Yn
